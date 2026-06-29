@@ -1,6 +1,3 @@
-# NOTES
-# Just need to create website link/host so anyone can run without python code
-
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
