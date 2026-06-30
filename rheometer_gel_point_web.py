@@ -19,7 +19,7 @@ st.title("🧪 Gel Point Calculator")
 #### File Upload ####
 uploaded_file = st.file_uploader(
     "Upload a TRIOS Excel file",
-    type=["xls","xlsx"]
+    type=["xls"]
 )
 
 
