@@ -519,7 +519,7 @@ with tab4:
         export_gel_points_df.loc[len(export_gel_points_df)] = {
             "Sample": "Average",
             "Gel Point Time (s)": average_gel_point_time,
-            "Gel Point Dosage (s)": average_gel_point_dosage}
+            "Gel Point Dosage (mW/cm²)": average_gel_point_dosage}
 
 
         make_download_table_button(export_gel_points_df,'table_calculated_gel_points.xlsx','Download Table with Averages',f'average_gel_table')
