@@ -6,7 +6,6 @@ from scipy.interpolate import interp1d
 from scipy.optimize import root_scalar
 import io
 from pathlib import Path
-import plotly.graph_objects as go
 
 
 ##### Title Header ####
